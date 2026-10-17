@@ -82,7 +82,7 @@ h3 {font-weight:800}
 .portrait-backdrop {position:relative;z-index:2;width:min(410px,80%);height:453px;border-radius:47% 47% 18px 18px;background:linear-gradient(150deg,#b9c9f8,#899bef 55%,#6a76c3);overflow:hidden;box-shadow:0 24px 50px rgba(50,64,128,.18)}
 .portrait-backdrop::before {content:"";position:absolute;inset:18px;z-index:0;border:1px solid #fff8;border-radius:inherit}
 .portrait-initials {position:absolute;top:35%;width:100%;text-align:center;font-size:135px;font-weight:800;color:#fff4;letter-spacing:-.1em}
-.portrait-image {position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;object-position:center;filter:saturate(.86);background:transparent}
+.portrait-image {position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;object-position:center 28%;filter:none;background:transparent}
 .floating-card {display:flex;align-items:center;gap:10px;position:absolute;z-index:3;background:#fff;border:1px solid #edf1fc;border-radius:13px;padding:12px 15px;box-shadow:0 14px 32px rgba(41,59,112,.13)}
 .floating-card strong {font-size:12px;color:var(--ink-2);display:block;line-height:1.4}
 .floating-card small {font-size:10px;color:#7785a4;display:block;white-space:nowrap}
