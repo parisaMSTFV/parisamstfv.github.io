@@ -1,36 +1,24 @@
-# Parisa Mostafavi | Personal Portfolio
+# Parisa Mostafavi — Personal Website
 
-A lightweight, responsive portfolio for customer analytics and decision science. Built with plain HTML, CSS, and JavaScript and designed for static hosting on GitHub Pages.
+A personal portfolio for Parisa Mostafavi, focused on customer analytics, decision science and marketing insight.
 
-## Publish with GitHub Pages
+Live site: https://parisamstfv.github.io/
 
-1. Create the public repository `parisamstfv.github.io` in the `parisaMSTFV` account.
-2. Copy the contents of this folder into the root of the repository, keeping the `assets/` directory.
-3. Open **Settings > Pages** and select **Deploy from a branch**, `main`, `/(root)`. Save.
-4. Visit `https://parisamstfv.github.io/` after the Pages deployment completes.
+## Site structure
 
-There is no build step, package manager, or external JavaScript dependency. All internal links and static asset paths are relative, so the site also works from a repository subpath.
+- `index.html` contains the content and semantic page structure.
+- `assets/styles.css` contains the layout, visual design, and responsive styles.
+- `assets/site.js` handles the small-screen navigation and footer year.
+- `assets/favicon.svg` contains the site icon.
 
 ## Local preview
 
-```bash
-python3 -m http.server 8000
-```
+Run `python3 -m http.server 8000` from this directory, then open `http://localhost:8000`.
 
-Then open `http://localhost:8000/`.
+The site uses standard HTML, CSS and a small amount of JavaScript. No build step is needed. The web font is optional; system fonts provide a fallback.
 
-## Content notes
+## Content and data
 
-- The featured repositories and profile links belong to the public `parisaMSTFV` GitHub portfolio.
-- Claims about external validation or synthetic evidence are labeled according to the project documentation.
-- The site contains no employer data, private analytics, internal schema names, passwords, or credentials.
-- Project descriptions should be updated when linked repository results or evidence boundaries change.
+Featured case studies link to public repositories. Evidence labels distinguish synthetic work from publicly licensed external validation. Project outcomes are not presented as employer results.
 
-## Project files
-
-- `index.html` — semantic page content and metadata
-- `assets/styles.css` — layout and responsive design
-- `assets/site.js` — accessible project filtering and footer year
-- `assets/favicon.svg` — vector favicon
-- `assets/social-card.png` — social sharing image
-- `.nojekyll` — publish raw static assets without Jekyll processing
+The hero uses the profile photo associated with the public GitHub account `parisaMSTFV`. If the profile photo changes, the website follows that change without a code update.
